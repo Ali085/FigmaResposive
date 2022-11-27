@@ -1,0 +1,182 @@
+.portfolio-section {
+    min-height: 400px;
+    background-color: #28293e;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+    .header-container {
+        max-width: 1200px;
+        text-align: center;
+        width: 390px;
+
+        h1 {
+            font-size: 72px;
+            color: white;
+        }
+
+        .txt {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            color: white;
+            font-weight: 200;
+        }
+    }
+
+}
+
+.sector-section {
+    .all-sector {
+        .sector-list {
+            padding-top: 80px;
+
+            ul {
+                display: flex;
+                gap: 90px;
+                text-align: center;
+                justify-content: center;
+                color: #391400;
+            }
+        }
+    }
+
+    .FlexContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 20px;
+
+        .FlexContainer_max {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .card {
+                width: 370px;
+                height: 416px;
+                position: relative;
+                margin-top: 40px;
+
+                img {
+                    width: 370px;
+                    height: 416px;
+                    border-radius: 6px;
+
+                }
+
+                .text {
+                    position: absolute;
+                    bottom: 70px;
+                    left: 15px;
+
+                    button {
+                        width: 80px;
+                        height: 40px;
+                        border-radius: 20px;
+                        border: none;
+                        color: #391400;
+                    }
+
+                    h3 {
+                        color: white;
+                        margin-top: 20px;
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.HelpBuild {
+    .buildContainer {
+       
+        display: flex;
+        gap: 160px   ;
+        margin: 0 auto;
+        width: 1170px;
+        
+
+        background: #EF6D58;
+        border-radius: 6px;
+        .buildImage{
+            margin-top: 30px;
+            margin-right: 60px;
+            
+        }
+
+       .buildTxt{
+        margin-left: 106px;
+        margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px   ;
+        align-items: flex-start;
+            max-width: 470px;
+            h2{
+                font-size: 56px;
+                color: white;
+            }
+            p{
+                color: white;
+            }
+       }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sector-section {
+        .all-sector {
+            .sector-list {
+
+
+                ul {
+                    display: none;
+                }
+            }
+        }
+    }
+    .buildContainer {
+        
+        position: relative;
+        flex-direction: column-reverse;
+       max-width: 400px;
+        left: 0px;
+        top: 0px;
+        
+        
+        .buildImage{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 206px;
+                
+            }
+        }
+       .buildTxt{
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 40px   !important;
+        align-items: center !important;
+            max-width: 470px !important;
+    margin-left: 0px !important; 
+     margin-top: 0px !important;
+            h2{
+                font-size: 56px;
+                color: white;
+            }
+            p{
+                color: white;
+            }
+       }
+    }
+
+}

@@ -1,0 +1,309 @@
+@import url("https://fonts.cdnfonts.com/css/graphik");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, a {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+* {
+  font-family: "Graphik", sans-serif;
+}
+
+.footerContainer {
+  max-width: 1800px;
+  height: 420px;
+  background-color: rgb(251, 243, 240);
+  margin: 0 auto;
+}
+.footerContainer .nav-headers {
+  display: flex;
+  gap: 240px;
+  padding-top: 80px;
+  padding-left: 30px;
+}
+.footerContainer .nav-headers .headd {
+  font-weight: 300;
+  color: #EF6D58;
+}
+.footerContainer .all-ul-nav {
+  display: flex;
+  margin-left: 361px;
+  gap: 246px;
+}
+.footerContainer .all-ul-nav ul {
+  line-height: 50px;
+}
+.footerContainer .nav-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.footerContainer .footer-end {
+  display: flex;
+  justify-content: space-between;
+}
+.footerContainer .footer-end .term-privacy {
+  display: flex;
+  gap: 30px;
+}
+
+@media screen and (max-width: 400px) {
+  .footerContainer {
+    max-width: 1800px;
+    height: 500px;
+    background-color: rgb(251, 243, 240);
+    margin: 0 auto;
+  }
+  .footerContainer .nav-headers {
+    display: none;
+  }
+  .footerContainer .all-ul-nav {
+    display: flex;
+    margin-left: 51px;
+    gap: 47px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerContainer .all-ul-nav ul {
+    line-height: 50px;
+  }
+  .footerContainer .nav-img {
+    display: flex;
+    justify-content: center;
+  }
+  .footerContainer .footer-end {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footerContainer .footer-end .term-privacy {
+    display: flex;
+    gap: 30px;
+  }
+}
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+nav .container {
+  max-width: 1040px;
+  height: 67px;
+  margin: 0 auto;
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 180px;
+}
+nav .container .icon {
+  display: none;
+  color: white;
+  margin-left: -200px;
+}
+nav .container .list-nav ul {
+  color: white;
+  display: flex;
+  gap: 50px;
+}
+
+@media screen and (max-width: 400px) {
+  nav .container .icon {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+  nav .container button {
+    display: none;
+  }
+  nav .container .list-nav {
+    display: none;
+  }
+}
+.portfolio-section {
+  min-height: 400px;
+  background-color: #28293e;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio-section .header-container {
+  max-width: 1200px;
+  text-align: center;
+  width: 390px;
+}
+.portfolio-section .header-container h1 {
+  font-size: 72px;
+  color: white;
+}
+.portfolio-section .header-container .txt {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: white;
+  font-weight: 200;
+}
+
+.sector-section .all-sector .sector-list {
+  padding-top: 80px;
+}
+.sector-section .all-sector .sector-list ul {
+  display: flex;
+  gap: 90px;
+  text-align: center;
+  justify-content: center;
+  color: #391400;
+}
+.sector-section .FlexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.sector-section .FlexContainer .FlexContainer_max {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sector-section .FlexContainer .FlexContainer_max .card {
+  width: 370px;
+  height: 416px;
+  position: relative;
+  margin-top: 40px;
+}
+.sector-section .FlexContainer .FlexContainer_max .card img {
+  width: 370px;
+  height: 416px;
+  border-radius: 6px;
+}
+.sector-section .FlexContainer .FlexContainer_max .card .text {
+  position: absolute;
+  bottom: 70px;
+  left: 15px;
+}
+.sector-section .FlexContainer .FlexContainer_max .card .text button {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: #391400;
+}
+.sector-section .FlexContainer .FlexContainer_max .card .text h3 {
+  color: white;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.HelpBuild .buildContainer {
+  display: flex;
+  gap: 160px;
+  margin: 0 auto;
+  width: 1170px;
+  background: #EF6D58;
+  border-radius: 6px;
+}
+.HelpBuild .buildContainer .buildImage {
+  margin-top: 30px;
+  margin-right: 60px;
+}
+.HelpBuild .buildContainer .buildTxt {
+  margin-left: 106px;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  max-width: 470px;
+}
+.HelpBuild .buildContainer .buildTxt h2 {
+  font-size: 56px;
+  color: white;
+}
+.HelpBuild .buildContainer .buildTxt p {
+  color: white;
+}
+
+@media screen and (max-width: 400px) {
+  .sector-section .all-sector .sector-list ul {
+    display: none;
+  }
+  .buildContainer {
+    position: relative;
+    flex-direction: column-reverse;
+    max-width: 400px;
+    left: 0px;
+    top: 0px;
+  }
+  .buildContainer .buildImage {
+    display: flex;
+    justify-content: center;
+  }
+  .buildContainer .buildImage img {
+    width: 206px;
+  }
+  .buildContainer .buildTxt {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 40px !important;
+    align-items: center !important;
+    max-width: 470px !important;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+  }
+  .buildContainer .buildTxt h2 {
+    font-size: 56px;
+    color: white;
+  }
+  .buildContainer .buildTxt p {
+    color: white;
+  }
+}
+.btn button {
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid gray;
+  background: #28293e;
+  width: 120px;
+  height: 45px;
+}
+.btn button a {
+  color: white;
+  font-weight: 500;
+}
+
+.loadBtn {
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+}
+.loadBtn button {
+  width: 160px;
+  height: 50px;
+  text-align: center;
+  background-color: rgb(252, 234, 227);
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+}
+
+.contact-btn {
+  width: 160px;
+  height: 50px;
+  text-align: center;
+  background-color: rgb(252, 234, 227);
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+}/*# sourceMappingURL=main.css.map */

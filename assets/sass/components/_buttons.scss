@@ -1,0 +1,40 @@
+.btn{
+    button{
+        padding: 10px;
+        border-radius: 7px;
+        border: 2px solid gray;
+        background: #28293e;
+        width: 120px;
+        height: 45px;
+        a{
+            color: white;
+            font-weight: 500;
+        }
+        
+    }
+}
+.loadBtn{
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+    button{
+        width: 160px;
+        height: 50px;
+        text-align: center;
+        background-color: rgb(252, 234, 227);
+        font-weight: 700;
+        border: none;
+        border-radius: 6px;
+        
+    }
+}
+.contact-btn{
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(252, 234, 227);
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    
+}
